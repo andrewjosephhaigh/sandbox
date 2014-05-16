@@ -10,7 +10,7 @@ make
 #make install
 
 cd
-wget http://ftp.ruby-lang.org/pub/ruby/2.1/ruby-2.1.2.tar.gz
+wget http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p545.tar.gz
 tar zxvf ruby-2.1.2.tar.gz
 cd ruby-2.1.2
 ./configure
