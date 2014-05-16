@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 #sudo yum -y groupinstall 'Development Tools'
 sudo yum install -y httpd-devel openssl-devel zlib-devel gcc gcc-c++ curl-devel expat-devel gettext-devel patch readline readline-devel zlib zlib-devel libyaml-devel libffi-devel make bzip2 zlib1g mysql-server
