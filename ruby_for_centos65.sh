@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#sudo yum -y groupinstall 'Development Tools'
+sudo yum -y groupinstall 'Development Tools'
 sudo yum install -y httpd-devel openssl-devel zlib-devel gcc gcc-c++ curl-devel expat-devel gettext-devel patch readline readline-devel zlib zlib-devel libyaml-devel libffi-devel make bzip2 zlib1g mysql-server
 wget http://pyyaml.org/download/libyaml/yaml-0.1.6.tar.gz
 tar zxvf yaml-0.1.6.tar.gz
@@ -11,8 +11,8 @@ make
 
 cd
 wget http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p545.tar.gz
-tar zxvf ruby-2.1.2.tar.gz
-cd ruby-2.1.2
+tar zxvf ruby-1.9.3-p545.tar.gz
+cd ruby-1.9.3-p454
 ./configure
 make
 #make install
